@@ -14,8 +14,7 @@ var transporter = nodemailer.createTransport({
     subject: 'nodemailer2.5.0邮件发送', // 标题  
     //text: 'Hello world', // 文本  
     html: `<h2>nodemailer基本使用:</h2><h3>  
-    <a href="http://blog.csdn.net/zzwwjjdj1/article/details/51878392">  
-    http://blog.csdn.net/zzwwjjdj1/article/details/51878392</a></h3>`   
+    <a href="https://github.com/hxj886600/youjian-fasong">github</a></h3>`   
   };  
   
   transporter.sendMail(mailOptions, function (err, info) {  
