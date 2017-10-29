@@ -3,14 +3,14 @@ var nodemailer = require('nodemailer');
 var transporter = nodemailer.createTransport({  
   service: 'qq',  
   auth: {  
-    user: '1240040337@qq.com',  
-    pass: 'kldjfhmefstmhdbb' //授权码,通过QQ获取  
+    user: '124------37@qq.com',  
+    pass: 'kldj------hdbb' //授权码,通过QQ获取  
   
   }  
   });  
   var mailOptions = {  
-    from: '1240040337@qq.com', // 发送者  
-    to: '845307004@qq.com', // 接受者,可以同时发送多个,以逗号隔开  
+    from: '124----337@qq.com', // 发送者  
+    to: '845---04@qq.com', // 接受者,可以同时发送多个,以逗号隔开  
     subject: 'nodemailer2.5.0邮件发送', // 标题  
     //text: 'Hello world', // 文本  
     html: `<h2>nodemailer基本使用:</h2><h3>  
